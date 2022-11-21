@@ -9,6 +9,28 @@ body {
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
 }
+header {
+  background-color: #2d3e36;
+  height: 50vh;
+  color: whitesmoke;
+  font-size: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  width: auto;
+  justify-content: space-around;
+  font-size: 20px;
+}
+li {
+  width: 200px;
+  text-decoration: navajowhite;
+}
+
 section {
   height: 500px;
   background-color: #1c1251;
@@ -18,6 +40,7 @@ section {
   background-color: antiquewhite;
   height: 100vh;
 }
+
 h1,
 h2,
 h3,
