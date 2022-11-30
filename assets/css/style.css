@@ -47,11 +47,15 @@ li {
 
 section {
   height: 500px;
-  background-color: #1c1251;
+  background-color: #26382f;
   border: solid black 1px;
 }
 
 h1 {
+  font-size: 80px;
+  margin: 0;
+}
+h2 {
   font-size: 60px;
   margin: 0;
 }
@@ -83,4 +87,9 @@ footer {
 }
 .socials {
   padding-bottom: 200px;
+}
+.page-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
 }
